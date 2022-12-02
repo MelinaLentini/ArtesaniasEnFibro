@@ -1,0 +1,253 @@
+.footer {
+  background-color: #c03131; }
+
+#subscribe-blog h6 {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px; }
+
+.suscrip h6 {
+  color: white;
+  font-size: 20px; }
+
+#subscribe-field {
+  font-size: 14px; }
+
+.btsusc {
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 5px; }
+
+.fab {
+  color: white;
+  font-size: 20px; }
+
+.productos {
+  color: white;
+  margin-top: 20px; }
+  .productos h6 {
+    font-size: 20px; }
+  .productos p a {
+    background-color: #c03131;
+    font-size: 18px;
+    text-decoration: none; }
+
+.contacto {
+  color: white;
+  margin-top: 20px; }
+  .contacto h6 {
+    font-size: 20px; }
+  .contacto p a {
+    font-size: 18px; }
+
+.copyr {
+  color: white;
+  font-size: 16px; }
+  .copyr a {
+    color: white;
+    font-size: 16px;
+    background-color: #c03131; }
+
+.contheader {
+  background-color: #c03131; }
+
+#navbarNavDropdown ul li a {
+  color: white; }
+
+.contmenu {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  flex-direction: block;
+  justify-content: flex-end; }
+
+li {
+  margin: 25px;
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  position: relative; }
+
+a {
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none; }
+
+.menudespl {
+  display: none;
+  background-color: #c03131;
+  width: inherit;
+  overflow: visible;
+  border-radius: 8%;
+  position: relative; }
+  .menudespl li a:hover {
+    background-color: grey; }
+
+.logoMF {
+  background-color: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', cursive; }
+
+/*ESTILO DEL BODY*/
+body {
+  background-color: white; }
+
+.prod {
+  text-align: center;
+  margin: 20px auto;
+  float: none;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #c03131;
+  background-color: white;
+  border-color: #c03131;
+  border-width: 7px; }
+
+.prod__card {
+  background-color: white;
+  justify-content: right; }
+  .prod__card p {
+    text-align: center;
+    color: white; }
+  .prod__card a {
+    background-color: #c03131;
+    color: white;
+    border: white;
+    text-transform: uppercase; }
+  .prod__card a:hover {
+    background-color: #c03131; }
+
+.prod2 {
+  text-align: center;
+  margin: 20px auto;
+  float: none;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #c03131;
+  background-color: white;
+  border-color: #c03131;
+  border-width: 7px;
+  width: 50%; }
+  .prod2 img {
+    width: 100%; }
+
+.prod2__card {
+  background-color: white;
+  justify-content: center; }
+  .prod2__card p {
+    text-align: center;
+    color: black; }
+  .prod2__card a {
+    background-color: #c03131;
+    color: white;
+    border-color: #c03131; }
+  .prod2__card a:hover {
+    background-color: #c03131;
+    border-color: black; }
+
+.card-body p {
+  color: black; }
+
+/*MOBILE*/
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-areas: "caballito"  "cajita"  "lapicero"  "macetita"  "servilletero";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    height: auto; } }
+
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    grid-template-areas: "caballito cajita"  "lapicero macetita" "servilletero .";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    height: auto; } }
+
+/*DESKTOP*/
+@media (min-width: 1200px) {
+  .container {
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    height: auto; } }
+
+/*ESTILO DE PARRAFOS*/
+.historia__p {
+  background-color: transparent;
+  color: #c03131;
+  margin: 40px; }
+
+.compras__p {
+  background-color: transparent;
+  color: #c03131;
+  margin: 40px;
+  font-size: 20px; }
+
+.contact-form {
+  background: #fff;
+  background-color: white;
+  margin-top: 13%; }
+
+.contact-form .form-control {
+  border-radius: 1rem;
+  margin: 20px;
+  margin-left: 0; }
+
+.contact-image img {
+  width: 80%; }
+
+.contact-form form .row {
+  margin-bottom: 0%; }
+
+.contact-form h1 {
+  margin-bottom: 4%;
+  margin-top: -15%;
+  text-align: center;
+  color: #c03131; }
+
+.contact-form .btnContact {
+  width: 40%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #c03131;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  float: right; }
+
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  border: none;
+  cursor: pointer; }
+
+.formuNov p {
+  color: #c03131;
+  margin-top: 30px;
+  font-size: 15px; }
+
+.formuNov label {
+  float: right;
+  margin-top: -39.5px;
+  margin-right: 10px; }
+
+h1 {
+  color: #c03131;
+  text-align: center;
+  margin-top: 30px; }
+
+h2 {
+  color: #c03131;
+  text-align: center;
+  margin-bottom: 20px; }

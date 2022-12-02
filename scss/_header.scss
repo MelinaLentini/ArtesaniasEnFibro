@@ -1,0 +1,50 @@
+$pink: rgba(240, 124, 143, 0.849);
+$red: rgb(192, 49, 49);
+
+.contheader {
+    background-color: $red;
+}
+
+#navbarNavDropdown ul li a {
+    color: white;
+}
+
+.contmenu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    flex-direction:block;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 25px;
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    }
+
+a {
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.menudespl {
+    display: none;
+    background-color: $red;
+    width:inherit;
+    overflow: visible;
+    border-radius: 8%;
+    position: relative;
+
+    li a:hover {
+        background-color: grey;
+    }
+}
+
+.logoMF {
+    background-color: none;
+}

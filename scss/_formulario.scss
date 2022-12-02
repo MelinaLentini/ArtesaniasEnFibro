@@ -1,0 +1,57 @@
+.contact-form{
+    background: #fff;
+    background-color: white;
+    margin-top: 13%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+    margin: 20px;
+    margin-left: 0;
+
+}
+.contact-image img{
+    width: 80%;
+}
+
+.contact-form form .row{
+    margin-bottom: 0%;
+}
+
+.contact-form h1{
+    margin-bottom: 4%;
+    margin-top: -15%;
+    text-align: center;
+    color: rgb(192, 49, 49);
+}
+.contact-form .btnContact {
+    width: 40%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: rgb(192, 49, 49);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.formuNov {
+    p {
+        color: rgb(192, 49, 49);
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    label {
+        float: right;
+        margin-top: -39.5px;
+        margin-right: 10px;
+    }
+}
