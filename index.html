@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--DESARROLLO DEL HEAD-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tenemos gran variedad de productos en Fibrofácil! Somos fabricantes, nuestros productos se entregan listos para pintar. Souvenirs - Caballitos - Cajitas - Lapiceros - Macetitas - Servilleteros.">
+  <meta name="keywords" content="Fibrofácil, Fibro, Souvenirs, Cajitas, Mundo Fibro, mdf, madera">
+  <title>Mundo Fibro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<!--CONTENIDO DEL BODY-->
+<body>
+  <header>
+<!--MENU-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid contheader">
+        <a class="navbar-brand logoMF" href="./index.html"><img src="./img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav contmenu">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+              <ul class="dropdown-menu menudespl" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./views/caballitos.html">Caballitos</a></li>
+                <li><a class="dropdown-item" href="./views/cajitas.html">Cajitas</a></li>
+                <li><a class="dropdown-item" href="./views/lapiceros.html">Lapiceros</a></li>
+                <li><a class="dropdown-item" href="./views/macetitas.html">Macetitas</a></li>
+                <li><a class="dropdown-item" href="./views/servilleteros.html">Servilleteros</a></li>
+              </ul>
+            </li>
+            <li class="nav-item" u>
+              <a class="nav-link" href="./views/comoComprar.html">Como comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!--TITULO PRINCIPAL Y SUBTITULO-->
+  <section class="introd">
+    <h1 class="introd__titu">Bienvenidos a Mundo Fibro!</h1>
+    <br>
+    <h2>Tenemos gran variedad de productos en fibrofacil con excelentes terminaciones</h2>
+  </section>
+<!--DISEÑO DE LAS CARDS-->
+  <section class="container">
+    <article class="row">
+      <div class="card prod col-md-4" style="width: 15rem;">
+        <img src="img/caballitoi.jpg" class="card-img-top" alt="caballito">
+          <div class="card-body prod__card">
+            <p>Son ideales como souvenirs de nacimiento o bautismo!</p>
+            <a href="views/caballitos.html" class="btn btn-secondary">Caballitos</a>
+          </div>
+      </div>
+      <div class="card prod col-md-4" style="width: 15rem;">
+        <img src="img/cajitai.jpg" class="card-img-top" alt="cajita">
+          <div class="card-body prod__card">
+            <p>Cajitas con tapa tipo encastre en la medida que te guste y necesites!</p>
+            <a href="./views/cajitas.html" class="btn btn-secondary">Cajitas</a>
+          </div>
+      </div>
+      <div class="card prod col-md-4" style="width: 15rem;">
+        <img src="img/lapiceroi.jpg" class="card-img-top" alt="lapicero">
+          <div class="card-body prod__card">
+            <p>Para organizar tu escritorio o para usar de souvenir en los cumples!</p>
+            <a href="views/lapiceros.html" class="btn btn-secondary">Lapiceros</a>
+          </div>
+      </div> 
+      <div class="card prod col-md-4" style="width: 15rem;">
+        <img src="img/macetitai.jpg" class="card-img-top" alt="macetita">
+          <div class="card-body prod__card">
+            <p>Ideales para hacer topiarios para distintos eventos o souvenirs!</p>
+            <a href="views/macetitas.html" class="btn btn-secondary">Macetitas</a>
+          </div>
+      </div>
+      <div class="card prod col-md-4" style="width: 15rem;">
+        <img src="img/servilleteroi.jpg" class="card-img-top" alt="servilletero">
+          <div class="card-body prod__card">
+            <p>Geniales organizar las mesas de los cumples o el evento que quieras!</p>
+            <a href="views/servilleteros.html" class="btn btn-secondary">Servilleteros</a>
+          </div>
+      </div>
+    </article>
+  </section>
+<!--FOOTER-->
+  <footer class="text-center text-lg-start text-muted footer">
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="widget widget_blog_subscription suscrip">
+              <form action="#" method="post" accept-charset="utf-8" id="subscribe-blog">
+                <h6 class="ofertas">RECIBI NUESTRAS OFERTAS!</h6>
+                <p>
+                  <input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Ingresa tu e-mail para recibir las ofertas" value="" id="subscribe-field">
+                </p>
+                <p>
+                  <input class="btsusc" type="submit" value="Suscribite!">
+                </p>
+              </form>
+              <br>
+              <h6 class="seguinos">SEGUINOS</h6>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook-square"></i>
+            </div>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 productos">
+            <h6 class="text-uppercase fw-bold mb-4">Productos</h6>
+            <p>
+              <a href="./views/caballitos.html" class="text-reset">Caballitos</a>
+            </p>
+            <p>
+              <a href="./views/cajitas.html" class="text-reset">Cajitas</a>
+            </p>
+            <p>
+              <a href="./views/lapiceros.html" class="text-reset">Lapiceros</a>
+            </p>
+            <p>
+              <a href="./views/macetitas.html" class="text-reset">Macetitas</a>
+            </p>
+            <p>
+              <a href="./views/servilleteros.html" class="text-reset">Servilleteros</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 contacto">
+            <h6 class="text-uppercase fw-bold mb-4">Mundo Fibro</h6>
+            <p>
+              <i class="fas fa-home me-3"></i>San Martin, Buenos Aires
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>info@mundofibro.com.ar
+            </p>
+            <p>
+              <i class="fab fa-whatsapp me-3"></i>Whatsapp: 15-3932-3368
+            </p>
+            <p>
+              <i class="far fa-clock me-3"></i>Horario: Lun. a Vier. de 9 a 18 hs
+              <br>
+              Sabados de 9 a 13 hs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--COPYRIGHT-->
+    <div class="footer-copyright text-center py-3 copyr">©MundoFibro 2021. Todos los derechos reservados.
+      <a>Desarrollado por MLentini</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
